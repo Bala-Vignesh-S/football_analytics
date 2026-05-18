@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+.env
+.env.*
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# ML Models (too large for GitHub — use Git LFS or download separately)
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.weights
+*.pb
+
+# Training artifacts (large binary files)
+training/*/runs/
+player_detection/runs/
+pitch_detction/football-pitch-detection/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads / outputs (runtime generated)
+backend/uploads/
+backend/outputs/
+backend/processed/
+
+# Node.js
+node_modules/
+frontend/dist/
+frontend/.next/
+frontend/out/
+.next/
+out/
+
+# Next.js cache
+.next/
+
+# npm / yarn
+package-lock.json
+yarn.lock
+.pnpm-store/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS
+*.DS_Store
