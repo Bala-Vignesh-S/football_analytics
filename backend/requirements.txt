@@ -4,11 +4,13 @@ python-jose[cryptography]>=3.3.0
 passlib[bcrypt]>=1.7.4
 python-multipart>=0.0.9
 sqlalchemy>=2.0.0
+python-dotenv>=1.0.0
 # CV Pipeline
 opencv-python>=4.9.0
-ultralytics>=8.2.0       # YOLOv8 + ByteTracker
+ultralytics>=8.2.0       # YOLOv8
 scikit-learn>=1.4.0      # K-Means team classifier
 numpy>=1.26.0
-# Optional: GPU acceleration (comment out if CPU only)
+Pillow>=10.0.0
+# Optional: GPU acceleration (uncomment if CUDA available)
 # torch>=2.2.0
 # torchvision>=0.17.0
